@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "460812554541",
+    "project_id": "lockie-app",
+    "storage_bucket": "lockie-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460812554541:android:d9e3883e7edac3795e03a4",
+        "android_client_info": {
+          "package_name": "com.nathanielxd.lockie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460812554541-ujo9qbadb1befs5ghvf5atvio5b66vqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlKyL9UaBi-H8Y_te2_hNlKQ8vTs0BLuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460812554541-ujo9qbadb1befs5ghvf5atvio5b66vqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+name: lockie_website
+description: Website served at https://lockieapp.com featuring a landing page and information regarding the Lockie. application.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies:
+  # Flutterfall
+  equatable: ^2.0.3
+  formz: ^0.4.1
+  flutter_bloc: ^8.0.1
+
+  # Packages
+  fast_strings: ^1.0.0
+  url_launcher: ^6.1.2
+
+  # View
+  lockie_theme:
+    path: ../modules/lockie_theme
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: fonts/manrope/Manrope-Regular.ttf
+        - asset: fonts/manrope/Manrope-Light.ttf
+          weight: 300
+        - asset: fonts/manrope/Manrope-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/manrope/Manrope-Medium.ttf
+          weight: 500
+        - asset: fonts/manrope/Manrope-SemiBold.ttf
+          weight: 600
+        - asset: fonts/manrope/Manrope-Bold.ttf
+          weight: 700
+        - asset: fonts/manrope/Manrope-ExtraBold.ttf
+          weight: 800
+    - family: GreatVibes
+      fonts:
+        - asset: fonts/GreatVibes-Regular.ttf

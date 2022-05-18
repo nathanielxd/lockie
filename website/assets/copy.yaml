@@ -1,0 +1,9 @@
+description: |
+  Lockie protects your passwords without saving any secret 
+  used to encrypt and decrypt your data. It gives you the freedom 
+  of storing your own secret keys on your local device while 
+  securing your information on a cloud service. 
+
+  As an open-source project, anyone can contribute and not only that. 
+  You can also follow a simple tutorial provided to you to compile, 
+  build and run your own Lockie app on your own servers. 
