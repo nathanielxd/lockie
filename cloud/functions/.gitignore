@@ -10,3 +10,4 @@ node_modules/
 
 firebase-admin.json
 sendgrid.json
+package-lock.json
